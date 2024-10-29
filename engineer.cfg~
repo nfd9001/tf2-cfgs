@@ -1,0 +1,9 @@
+alias "engi_build_sentry"    "destroy 2 0; build 2 0; engi_place_mode"
+alias "engi_build_dispenser" "destroy 0 0; build 0 0; engi_place_mode"
+alias "engi_build_entrance"  "destroy 1 0; build 1 0; engi_place_mode"
+alias "engi_build_exit"      "destroy 1 1; build 1 1; engi_place_mode"
+
+bind MWHEELUP engi_build_entrance
+bind MWHEELDOWN engi_build_exit
+bind MOUSE4 engi_build_sentry
+bind MOUSE5 engi_build_dispenser
